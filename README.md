@@ -315,6 +315,26 @@ on:
 - 分次進場 (每次 `CONTRACT_SIZE` 小於 `MAX_POSITION_SIZE`)
 - 避免單次全倉進場
 
+## 🖼️ 圖片與參考
+
+### 策略討論與參數說明
+
+![Alex 討論：合約價值](assets/alex_discussion_contract_value.jpg)
+
+![Alex 討論：槓桿](assets/alex_discussion_leverage.jpg)
+
+### 回測結果
+
+![H-Model 回測結果](assets/backtest_result.png)
+
+### H-Model 課程參考
+
+![H-Model 課程參考](assets/h_model_course_reference.png)
+
+### 延伸閱讀
+
+- [H-Model 相關文章](https://vocus.cc/article/6a977278fd8978000173189c)
+
 ## 📚 相關資源
 
 - [Gate.io API 文檔](https://www.gate.io/docs/developers/apiv4)
