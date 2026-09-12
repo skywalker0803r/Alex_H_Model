@@ -42,8 +42,8 @@ jobs:
           TRADING_SYMBOL: ${{ secrets.TRADING_SYMBOL || 'BTC/USDT' }}
           LEVERAGE: ${{ secrets.LEVERAGE || '1' }}
           CONTRACT_SIZE: ${{ secrets.CONTRACT_SIZE || '1' }}
-          BIAS_THRESHOLD: ${{ secrets.BIAS_THRESHOLD || '-5' }}
-          SPREAD_THRESHOLD: ${{ secrets.SPREAD_THRESHOLD || '-0.5' }}
+          BIAS_THRESHOLD: ${{ secrets.BIAS_THRESHOLD || '0' }}
+          SPREAD_THRESHOLD: ${{ secrets.SPREAD_THRESHOLD || '0' }}
           DEBUG_MODE: ${{ secrets.DEBUG_MODE || 'false' }}
         run: python strategy.py
       
