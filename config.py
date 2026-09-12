@@ -20,8 +20,8 @@ LEVERAGE = int(os.getenv('LEVERAGE', '1'))
 CONTRACT_SIZE = float(os.getenv('CONTRACT_SIZE', '1'))
 
 # Strategy Parameters
-BIAS_THRESHOLD = float(os.getenv('BIAS_THRESHOLD', '-5'))  # BIAS% entry threshold
-SPREAD_THRESHOLD = float(os.getenv('SPREAD_THRESHOLD', '-0.5'))  # Spread% entry threshold
+BIAS_THRESHOLD = float(os.getenv('BIAS_THRESHOLD', '0'))  # BIAS% entry threshold
+SPREAD_THRESHOLD = float(os.getenv('SPREAD_THRESHOLD', '0'))  # Spread% entry threshold
 SMA_PERIOD = 20  # 20-day SMA for BIAS calculation
 MAX_POSITION_SIZE = 10  # Maximum contracts to hold
 
